@@ -1,4 +1,4 @@
-module.exports =  function(items) {
+export default  function(items) {
     var itemsOver20 = [];
     for (var i = 0; i < items.length; i++) {
        var item = items[i];

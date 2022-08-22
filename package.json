@@ -1,9 +1,9 @@
 {
-  "name": "bootcamp-terminal-tests",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "license": "AGPL-version-3.0",
   "private": false,
   "engines": {
@@ -17,16 +17,22 @@
   },
   "bugs": "",
   "keywords": [],
-  "author": "",
-  "contributors": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [
+
+  ],
   "scripts": {
     "dev": "",
-    "test": "mocha"
-  },
-  "directories": {
-    "test": "test"
+    "test": ""
   },
   "dependencies": {
-    "mocha": "^10.0.0"
+
+  },
+  "devDependencies": {
+
   }
 }

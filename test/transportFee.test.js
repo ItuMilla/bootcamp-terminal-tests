@@ -1,5 +1,5 @@
 import assert from "assert";
-import greet from "../transportFee.js";
+import transportFee from "../transportFee.js";
 
 describe('The transportFee Function', function() {
     it('Should return true if the input string for shift is "morning"', function() {

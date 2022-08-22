@@ -1,4 +1,4 @@
-function totalPhoneBill(callsAndSms) {
+export default function totalPhoneBill(callsAndSms) {
     var callsAndSmsArr = callsAndSms.split(", ");
     // console.log(callsAndSmsArr);
     

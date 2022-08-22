@@ -1,5 +1,5 @@
 import assert from "assert";
-import greet from "../isFromBellville.js";
+import isFromBellville from "../isFromBellville.js";
 
 describe('The isFromBellville function', function() {
    

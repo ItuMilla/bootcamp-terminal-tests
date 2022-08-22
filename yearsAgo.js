@@ -1,4 +1,4 @@
-function yearsAgo(year) {
+export default function yearsAgo(year) {
     var now = new Date();
     var currentYear = now.getFullYear();
 

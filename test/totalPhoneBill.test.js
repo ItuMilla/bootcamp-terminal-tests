@@ -6,18 +6,8 @@ describe('The totalPhoneBill Function', function() {
         assert.equal(totalPhoneBill("call, sms, call, sms, sms"), 'R7.45');
     });
 
-    it('Should true if input string is passed as input', function() {
-        var input = 'call, sms'
-        assert.isString(input);
-    });
 
-    it('Should return false when input string is undefined', function() {
-        var input;
-        assert.isUndefined(input);
-    });
-
-    it('Should return "R0.00" if input string is an empty string', function() {
-        var input = '';
-        assert.equal(totalPhoneBill(input), 'R0.00');
+    it('Should return "R0.00" if input string is "call, sms" ', function() {
+        assert.equal(totalPhoneBill("call, sms,"), 'R2.75');
     });
 });

@@ -1,5 +1,5 @@
-const assert = require('assert');
-const countAllFromTown = require('../countAllFromTown');
+import assert from "assert";
+import countAllFromTown from '../countAllFromTown.js';
 
 describe('The countAllFromTown Function', function() {
     

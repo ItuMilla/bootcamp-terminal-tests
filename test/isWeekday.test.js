@@ -14,9 +14,4 @@ describe('isWeekday function', function() {
         assert.equal(isWeekday(day), false);
     });
     
-    it('Should return true if the function returns a boolean value', function() {
-        var day = 'Friday';
-        assert.isBoolean(isWeekday(day), 'Expeted to return true or false');
-    });
-  
 })

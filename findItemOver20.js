@@ -1,4 +1,4 @@
-export default  function(items) {
+export default  function findItemsOver20(items) {
     var itemsOver20 = [];
     for (var i = 0; i < items.length; i++) {
        var item = items[i];
